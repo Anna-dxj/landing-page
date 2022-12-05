@@ -7,26 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Landing Page</title>
   <link rel="stylesheet" href="./assets/css/style.css"/>
-
-  <!-- Link the CSS stylesheet here -->
 </head>
 
 <body>
   <!-- Header, Navigation w/ links -->
   <header>
+    <h1 id="my-landing-page">My Landing Page</h1>
     <nav>
       <ul>
-        <li> <a href="#Anna-Langford">Home </a></li>
-        <li> <a href="#Anna-Langford">About Me </a></li>
+        <li> <a href="#about-me">Home </a></li>
+        <li>|</li>
+        <li> <a href="#about-me">About Me </a></li>
+        <li>|</li>
         <li> <a href="#contact-me">Contact Me </a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Main content -->
-  <!-- ( semantic elements title, image/figure, image/figure caption) -->
-  <article>
-    <h1 id="Anna-Langford">Anna Langford</h1>
+  <article id="about-me">
     <img src="./assets/images/20220508_151812459_iOS.jpeg" alt="Image of me" width="200"/>
   </article>
 
@@ -35,10 +34,10 @@
     <h2 id="Contact-Me">Contact Me</h2>
     <form>
       <p><label for="name">
-        Name: <input type="text" id="name" name="your-name"/>
+        Name: <input type="text" name="your-name"/>
       </label></p>
       <p><label for="email">
-        Email: <input type="email" id="email" name="your-email"/>
+        Email: <input type="email" name="your-email"/>
       </label></p>
       <p><button type="submit">Send!</button></p>
     </form>
@@ -47,7 +46,7 @@
 
   <!-- Footer -->
   <footer>
-
+    <p></p>
   </footer>
 </body>
 

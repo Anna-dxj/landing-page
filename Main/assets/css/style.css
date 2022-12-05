@@ -1,5 +1,74 @@
 /* Universal Selector */
-
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 /* Element Selectors */
+footer,
+header {
+    border:0px;
+    width:100%;
+    background-color:rgb(255, 122, 122);
+    left:0px;
+    border:5px;
+    border-style:solid;
+    border-color:rgb(255, 79, 48);
+}
+header{
+    position:fixed;
+    margin-top:0px;
+    top:0px;
+    padding-bottom:4px;
+}
+footer{
+    position:fixed;
+    bottom:0px;
+}
+nav{
+    display:inline;
+}
+ul{
+    display:inline;
+}
+li {
+    display:inline;
+    padding-right:10px;
+}
+a{
+    color:rgb(234, 234, 234);
+}
 
+h1{
+    display:inline;
+}
+h2{
+    display:block;
+}
+img{
+    display:block;
+    margin:auto;
+    margin-top:45px;
+    padding-top:25px;
+    padding-bottom: 20px;
+    border:5px;
+    
+}
+form{
+    background-color:rgba(241, 224, 173, 0.929);
+    padding:10px 0px 10px;
+    border:5px;
+    border-style:solid;
+    border-color:rgba(233, 201, 104, 0.929)
+}
+form p{
+    padding-left:10px;
+    display:inline;
+}
 /* Class & ID Selectors */
+#about-me{
+    background-color:rgba(241, 224, 173, 0.929);
+}
+#contact-me{
+    padding:0;
+    border:0;
+    margin:0;
+}
