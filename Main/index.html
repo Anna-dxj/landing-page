@@ -12,8 +12,8 @@
 <body>
   <!-- Header, Navigation w/ links -->
   <header>
-    <h1 id="my-landing-page">My Landing Page</h1>
     <nav>
+      <h1 id="my-landing-page">My Landing Page</h1>
       <ul>
         <li> <a href="#portfolio">Home </a></li>
         <li>|</li>
@@ -25,27 +25,26 @@
   </header>
 
   <!-- Main content -->
-  <aside>
-    <img src="./assets/images/20220508_151812459_iOS.jpeg" alt="Image of me" width="200"/>
-  </aside>
 
   <main id="portfolio">
-    <p>Coming soon!</p>
+    <aside>
+      <img src="./assets/images/20220508_151812459_iOS.jpeg" alt="Image of me" width="200"/>
+    </aside>
+    <article>
+      <p>Coming soon!</p>
+    </article>
   </main>
 
   <!-- Contact section -->
   <section>
     <h2 id="Contact-Me">Contact Me</h2>
     <form>
-      <p><label for="name" required>
+      <p class="basic-info"><label for="name" required>
         Name: <input type="text" name="your-name"/>
       </label></p>
-      <p><label for="email" required>
+      <p class="basic-info"><label for="email" required>
         Email: <input type="email" name="your-email"/>
       </label></p>
-      <p>
-        Send me a message: <textarea cols="30" rows="8"></textarea>
-      </p>
       <p><button type="submit">Send!</button></p>
     </form>
     <!--Contact form with inputs and smubmit button)-->
@@ -53,6 +52,7 @@
 
   <!-- Footer -->
   <footer>
+    <p>Made by Anna Langford</p>
   </footer>
 </body>
 
