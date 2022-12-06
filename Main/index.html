@@ -15,9 +15,9 @@
     <h1 id="my-landing-page">My Landing Page</h1>
     <nav>
       <ul>
-        <li> <a href="#about-me">Home </a></li>
+        <li> <a href="#portfolio">Home </a></li>
         <li>|</li>
-        <li> <a href="#about-me">About Me </a></li>
+        <li> <a href="#portfolio">My Portfolio </a></li>
         <li>|</li>
         <li> <a href="#contact-me">Contact Me </a></li>
       </ul>
@@ -25,20 +25,27 @@
   </header>
 
   <!-- Main content -->
-  <section id="about-me">
+  <aside>
     <img src="./assets/images/20220508_151812459_iOS.jpeg" alt="Image of me" width="200"/>
-  </section>
+  </aside>
+
+  <main id="portfolio">
+    <p>Coming soon!</p>
+  </main>
 
   <!-- Contact section -->
   <section>
     <h2 id="Contact-Me">Contact Me</h2>
     <form>
-      <p><label for="name">
-        Name: <input type="text" id="name" name="your-name"/>
+      <p><label for="name" required>
+        Name: <input type="text" name="your-name"/>
       </label></p>
-      <p><label for="email">
-        Email: <input type="email" id="email" name="your-email"/>
+      <p><label for="email" required>
+        Email: <input type="email" name="your-email"/>
       </label></p>
+      <p>
+        Send me a message: <textarea cols="30" rows="8"></textarea>
+      </p>
       <p><button type="submit">Send!</button></p>
     </form>
     <!--Contact form with inputs and smubmit button)-->
@@ -46,7 +53,6 @@
 
   <!-- Footer -->
   <footer>
-    <p></p>
   </footer>
 </body>
 
